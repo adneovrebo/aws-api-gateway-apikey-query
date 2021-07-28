@@ -28,12 +28,12 @@ zip -r authorizer.zip . && aws lambda update-function-code --function-name <Func
 ## Configure API-gateway
 
 1. Create authorizer with the deployed lambda function
-![Create Authorizer](images/create-authorizer.png?raw=true "Create Authorizer")
+![Create Authorizer](https://raw.githubusercontent.com/adneovrebo/aws-api-gateway-apikey-query/master/images/create-authorizer.png "Create Authorizer")
 
 2. Go to settings and select ``API Key Source`` to be ``AUTHORIZER``
 
 3. On the selected request select the authorizer and set ```API Key Required``` to ```true```
-![Create Authorizer](images/set-authorizer-on-method.png?raw=true "Create Authorizer")
+![Create Authorizer](https://raw.githubusercontent.com/adneovrebo/aws-api-gateway-apikey-query/master/images/set-authorizer-on-method.png "Create Authorizer")
 
 4. Deploy API for changes to take effect.
 
