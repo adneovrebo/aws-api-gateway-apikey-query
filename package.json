@@ -1,0 +1,24 @@
+{
+  "name": "@adneovrebo/api-gateway-apikey-query-authorizer",
+  "version": "1.0.1",
+  "description": "A package to authorize AWS Gateway API with API-key as query parameter.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "homepage": "https://github.com/adneovrebo/aws-api-gateway-apikey-query",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir lib --declaration",
+    "publish": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/adneovrebo/aws-api-gateway-apikey-query/issues"
+  },
+  "author": "Ådne Øvrebø <adne.ovrebo@hotmail.com> (https://github.com/adneovrebo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adneovrebo/aws-api-gateway-apikey-query.git"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
